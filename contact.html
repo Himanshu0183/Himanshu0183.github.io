@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me!</title>
+    <link rel="stylesheet" href="contact_css.css">
+</head>
+
+<body>
+    <form class="container">
+        <h1 class="contact_heading">Contact Himanshu</h1>
+        <hr>
+        <h2>Sender Info</h2>
+
+        <div>Name: *
+            <input type="text" name="name" required>
+        </div>
+        <div>
+            Email: *<input type="email" name="email" id="email" required placeholder="xyz@abc.com">
+        </div>
+        <div>
+            Phone Number : <input type="tel" name="phone_number" id="phone_number" placeholder="(222)-333-4444">
+        </div>
+        <div> Message: <textarea placeholder="Enter A brief Message" name="message" id="" cols="30" rows="10">
+        </textarea>
+        </div>
+        <div>
+            <fieldset>
+
+                <legend>Purpose
+                </legend>
+                Hiring<input type="radio" name="purpose" id=""> Service Quotation<input type="radio" name="purpose" id=""> General Inquiry<input type="radio" name="purpose" id="">Other <input type="radio" name="purpose" id="">
+            </fieldset><br>
+        </div>
+
+
+        <div>
+            City: <select name="city" id="city">
+                <option value="">---Select a City---</option> 
+                <option value="Toronto(Downtown)">Toronto(Downtown)</option>
+                <option value="North York">North York</option>
+                <option value="Mississauga">Mississauga</option>
+                <option value="Brampton">Brampton</option>
+                <option value="Markham">Markham</option>
+                <option value="Scarborough">Scarborough</option>
+                <option value="Ajax">Ajax</option>
+                <option value="Richmond Hill">Richmond Hill</option>
+                <option value="Other">Other</option>
+
+
+
+            </select>
+            <br>
+            <br>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
