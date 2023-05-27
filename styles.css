@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    background-color: #32a842;
+    background-color: #69A197;
     overflow: hidden;
     position: fixed;
     width: 100%;
@@ -44,7 +44,7 @@ nav a:hover {
 }
 
 #home {
-    background-color: #32a842;
+    background-color: #69A197;
     padding: 100px 40px 40px;
     text-align: center;
 }
@@ -125,7 +125,7 @@ button.home__contact:hover {
 }
 
 #contact {
-    background-color: #32a842;
+    background-color: #69A197;
     padding: 50px;
     text-align: center;
     text-decoration-color: #FFF;
@@ -133,4 +133,134 @@ button.home__contact:hover {
 
 #contact a {
     text-decoration-color: #FFF;
+}
+
+
+/* CSS for skills section */
+
+#skills {
+    background-color: #eee;
+    padding: 60px 40px 40px;
+}
+
+.section {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    cursor: default;
+    font-family: Open Sans, sans-serif;
+}
+
+section {
+    display: block;
+}
+
+.skill__title {
+    margin: 0;
+}
+
+.skill__description,
+.skill__subtitle,
+.skill__title {
+    color: #4d4d4d;
+}
+
+h1 {
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 8px 0;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.skillset {
+    background-color: #dae8f9;
+    color: var(--color-light-white);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.skillset img {
+    height: 75px;
+    margin: 30px;
+    width: 75px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#mywork {
+    padding-top: 80px;
+}
+
+.mywork__title {
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.project {
+    align-items: center;
+    height: 250px;
+    margin: 30px;
+    position: relative;
+    width: 350px;
+}
+
+.project,
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img__wrap {
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    text-align: center
+}
+
+.img__description {
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #69A197;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    width: auto;
+    max-width: 60%;
+}
+
+.img__img:hover {
+    opacity: 0.7;
+}
+
+.img__wrap:hover .img__description {
+    opacity: 1;
 }
