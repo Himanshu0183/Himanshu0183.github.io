@@ -24,8 +24,9 @@
 
     <section id="home">
         <div class="home" style="opacity: 1;">
-            <div class="home__logo" style="position: relative; width: 300px; height: 300px; overflow: hidden; pointer-events: auto; background-color: rgb(17, 26, 33); touch-action: none;">
-                <img src="images/logo.jpeg" alt="" class="LOGO" height=100% width=100% style=" object-fit: cover; ">
+            <div class="home__logo">
+                <img src="images/logo2.jpg" class="logo-image" height=100% width=100%>
+                <img class="hover-image" src="images/logo1.jpg" height=100% width=100%>
 
             </div>
             <div class=" home__right ">
@@ -55,13 +56,15 @@
         </div>
         <ul class="d-flex justify-content-around">
             <li class="major major__front-end ">
+
                 <svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 1024 1024 " class="major__icon " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg " style="color: rgb(247, 108,108); font-size: 150px; ">
         <path d="M145.2 96l66 746.6L512 928l299.6-85.4L878.9 96H145.2zm595 177.1l-4.8 47.2-1.7 19.5H382.3l8.2 94.2h335.1l-3.3 24.3-21.2 242.2-1.7 16.2-187 51.6v.3h-1.2l-.3.1v-.1h-.1l-188.6-52L310.8 572h91.1l6.5 73.2 102.4 27.7h.4l102-27.611.4-118.6H510.9v-.1H306l-22.8-253.5-1.7-24.3h460.3l-1.6 24.3z ">
 
         </path>
         </svg>
+
                 <h2 class="major__title ">Front-end</h2>
-                <p class="text-center">HTML, CSS, Javascript, <br> Web APIs</p>
+                <p class="text-center">HTML, Javascript, <br> CSS, Web APIs</p>
             </li>
             <li class="major ">
                 <svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 1024 1024 " class="major__icon " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg " style="color: rgb(247, 108, 108); font-size:150px; ">
@@ -69,8 +72,8 @@
         40 40s-17.9 40-40 40-40-17.9-40-40 17.9-40 40-40zM160 640h704V384H160v256zm128-168c22.1 0 40 17.9 40 40s-17.9 40-40 40-40-17.9-40-40 17.9-40 40-40z ">
     </path>
 </svg>
-                <h2 class="major__title ">Back-end</h2>
-                <p class="text-center">Javascript, NodeJS, Express, <br> SQL </p>
+                <h2 class="major__title "> Back-end</h2>
+                <p class="text-center">Javascript, NodeJS,<br> Express, SQL </p>
             </li>
         </ul>
     </section>
@@ -104,6 +107,13 @@
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="The logo icon for python" title="python">
 
 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="The logo icon for Cplus" title="Cplus">
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg" alt="The logo icon for Java" title="Java">
+
+
+
+
         </div>
     </section>
 
@@ -112,27 +122,59 @@
     <section id="projects" class="section">
         <h1 class="mywork__title">My Work</h1>
 
-        <div class="projects">
 
-
-
-
-
-
-
-
+        <ul>
             <a href="contact.html" target="_blank">
                 <div class="img__wrap">
                     <img class="img__img" src='images/form_image.png' width='60%' height='60%'>
                     <div class="img__description">Responsive Form
-                        <br> (HTML, CSS Javascript)
+                        <br> (HTML, CSS & Javascript)
                     </div>
                 </div>
-        </div>
-        </a>
-        </div>
+            </a>
+        </ul>
 
+
+        <ul>
+            <a href="https://github.com/Himanshu0183/801" target="_blank">
+                <div class="img__wrap">
+                    <img class="img__img" src='images/form_image.png' width='60%' height='60%'>
+                    <div class="img__description">Grocery List
+                        <br> (HTML, CSS, Bootstrap, Javascript, nodejs)
+                    </div>
+                </div>
+            </a>
+            </div>
+        </ul>
+
+        <ul>
+            <a href="https://github.com/Himanshu0183/javaProjects_ws6" target="_blank">
+                <div class="img__wrap">
+                    <img class="img__img" src='images/form_image.png' width='60%' height='60%'>
+                    <div class="img__description">BMI Calculator
+                        <br> (Java, JavaFx)
+                    </div>
+                </div>
+            </a>
+            </div>
+        </ul>
+
+        <ul>
+            <a href="https://github.com/Himanshu0183/ClientApp" target="_blank">
+                <div class="img__wrap">
+                    <img class="img__img" src='images/form_image.png' width='60%' height='60%'>
+                    <div class="img__description">Multi-Threaded Server
+                        <br> (Java, JavaFx)
+                    </div>
+                </div>
+            </a>
+            </div>
+
+        </ul>
+        </div>
     </section>
+
+
 
 
 
@@ -154,7 +196,7 @@
             "><path d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-80.8 108.9L531.7 514.4c-7.8 6.1-18.7 6.1-26.5 0L189.6 268.9A7.2 7.2 0 0 1 194 256h648.8a7.2 7.2 0 0 1 4.4 12.9z "></path></svg>
         </a>
 
-            <a href="files/hResume.pdf " target="_blank " class="contact__icon fs-1 p-3" target="_blank " position="relative "><svg stroke="currentColor " fill="none " stroke-width="0 " viewBox="0 0 24 24 " class="contact__icons " height="1em " width="1em
+            <a href="https://docs.google.com/document/d/1ZJnyECotRBh3IkbagON8zCRr3SpQk_D9h7bBYNuItC0/edit?usp=sharing" target="_blank " class="contact__icon fs-1 p-3" target="_blank " position="relative "><svg stroke="currentColor " fill="none " stroke-width="0 " viewBox="0 0 24 24 " class="contact__icons " height="1em " width="1em
             " xmlns="http://www.w3.org/2000/svg "><path stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z "></path></svg></a>
         </div>
     </section>

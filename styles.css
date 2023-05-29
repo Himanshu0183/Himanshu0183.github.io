@@ -28,7 +28,41 @@ nav a:hover {
 
 .home__logo {
     clip-path: circle(50% at 50% 50%);
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    pointer-events: auto;
+    background-color: rgb(17, 26, 33);
+    touch-action: none
 }
+
+.logo-image {
+    object-fit: cover;
+    position: relative;
+}
+
+.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home__logo:hover .logo-image {
+    opacity: 0;
+}
+
+.home__logo:hover .hover-image {
+    opacity: 1;
+}
+
+
+/*11111111111*/
 
 .home__contact,
 .home__description,
@@ -135,6 +169,12 @@ button.home__contact:hover {
     text-decoration-color: #FFF;
 }
 
+.about__majors {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 0;
+}
+
 
 /* CSS for skills section */
 
@@ -155,6 +195,17 @@ button.home__contact:hover {
 
 section {
     display: block;
+}
+
+.major__icon {
+    border: 2px solid pink;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.major__description,
+.major__title {
+    color: #4d4d4d;
 }
 
 .skill__title {
@@ -215,6 +266,11 @@ ul {
     padding-left: 0;
 }
 
+li {
+    display: list-item;
+    text-align: center;
+}
+
 .project {
     align-items: center;
     height: 250px;
@@ -227,6 +283,10 @@ ul {
 .projects {
     display: flex;
     justify-content: center;
+}
+
+.projects {
+    flex-wrap: wrap;
 }
 
 a {
